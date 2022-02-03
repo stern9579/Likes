@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="conatiner">
+        <div class="header">
+            <h1 class="header-bar">Network</h1>
+            <h1 class="feed">Your Feed</h1>
+        </div>
+        <div class="body-container">
+            <div class="column-left">
+                <div class="profileCard">
+                    <img src="./icons/user-circle.png" alt="pic">
+                    <h3><a href="#">Add an avatar</a></h3>
+                    <h1>James Doe</h1>
+                </div>
+            </div>
+            <div class="column-right">
+                <div class="box">
+                    <div class="top">
+                        <h2 class="user">Some User</h2>
+                        <h3 class="likes1" id="likes1">0 likes</h3>
+                        <button class="likebtn" onclick="addCount()">Like</button>
+                        <button class="dislikebtn" onclick="subtractCount()">Dislike</button>
+                    </div>
+                    <div class="bot">
+                        <h3>This is some filler text, it can say anything we like</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="top">
+                        <h2 class="user">Some User</h2>
+                        <h3 class="likes2" id="likes2">0 likes</h3>
+                        <button class="likebtn" onclick="addCount2()">Like</button>
+                        <button class="dislikebtn" onclick="subtractCount2()">Dislike</button>
+                    </div>
+                    <div class="bot">
+                        <h3>This is some filler text, it can say anything we like</h3>
+                    </div>
+                </div><div class="box">
+                    <div class="top">
+                        <h2 class="user">Some User</h2>
+                        <h3 class="likes3" id="likes3">0 likes</h3>
+                        <button class="likebtn" onclick="addCount3()">Like</button>
+                        <button class="dislikebtn" onclick="subtractCount3()">Dislike</button>
+                    </div>
+                    <div class="bot">
+                        <h3>This is some filler text, it can say anything we like</h3>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
